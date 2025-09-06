@@ -1,0 +1,6 @@
+rainfall,temperature,soil_moisture,region,disaster
+120,25,0.8,North,1
+30,35,0.2,South,0
+200,22,0.9,East,1
+50,28,0.3,West,0
+150,24,0.7,North,1
