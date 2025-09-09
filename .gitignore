@@ -1,11 +1,13 @@
 # Ignore virtual environment
 .venv/
 
-# Ignore Python cache files
+# Ignore python cache
 __pycache__/
 
-# Ignore big data/logs
+# Ignore model & log files
+*.pkl
 *.log
+
+# Ignore large binary libs
 *.dll
 *.lib
-
