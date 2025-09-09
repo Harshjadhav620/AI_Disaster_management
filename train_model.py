@@ -26,6 +26,4 @@ print(f"... Model trained! Accuracy: {accuracy:.2f}")
 joblib.dump(model,"models/disaster_model.pkl")
 print("... Model saved in models/disaster_model.pkl")
 
-sample = [[120,25,0.8]]
-prediction = model.predict(sample)
-print("... Pridiction disaster risk",prediction[0])
+
